@@ -19,6 +19,7 @@ def main():
     for i in range(10):
         print("Counting" , i)
     print("hello here is the wheater for London n' stuff" , x)
+    print("Happy Wheater Day Mister!!!")
 
 
 

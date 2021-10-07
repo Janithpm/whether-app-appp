@@ -13,10 +13,14 @@ def main():
     url = url1  + city + url2
     print(url)
     x = requests.get(url)
-    print("Loaded Json" , "Result" , x.text)
+    # print("Loaded Json" , "Result" , x.text)
     x = x.text
     x = json.loads(x)
+    for i in range(10):
+        print("Counting" , i)
     print("hello here is the wheater for London n' stuff" , x)
+
+
 
 if __name__ == "__main__":
     main()
